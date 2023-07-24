@@ -20,6 +20,9 @@ Follow the following setup instructions to run the program.
 ### Decrypt
 ![screenshot showing the decrypt process](https://raw.githubusercontent.com/pkariithi/Command-Line-Caesar-Cipher/main/src/main/resources/decrypt.png)
 
+### Unit Tests
+![screenshot showing passed unit tests](https://raw.githubusercontent.com/pkariithi/Command-Line-Caesar-Cipher/main/src/main/resources/tests.png)
+
 ## B.D.D
 
 | BEHAVIOUR               | INPUT                  | OUTPUT                      |
