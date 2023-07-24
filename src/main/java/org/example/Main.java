@@ -18,13 +18,15 @@ public class Main {
             String plainText = scanner.nextLine().toUpperCase();
             if(plainText.isEmpty()) {
                 System.out.println("You have not entered any text to be encrypted. kindly try again");
+                System.exit(0);
             }
 
             // get key
             System.out.println("Step 2/2 : Kindly choose a key to cipher the text (A number greater than zero)");
             int encryptKey = scanner.nextInt();
-            if(encryptKey > 1) {
+            if(encryptKey < 1) {
                 System.out.println("Kindly enter a key greater than zero and try again.");
+                System.exit(0);
             }
 
             // encrypt
@@ -37,13 +39,15 @@ public class Main {
             String encryptedText = scanner.nextLine().toUpperCase();
             if(encryptedText.isEmpty()) {
                 System.out.println("You have not entered any text to be decrypted. kindly try again");
+                System.exit(0);
             }
 
             // get key
             System.out.println("Step 2/2 : Kindly enter the cipher key used to encrypt the text (A number greater than zero)");
             int decryptKey = scanner.nextInt();
-            if(decryptKey > 1) {
+            if(decryptKey < 1) {
                 System.out.println("Kindly enter a key greater than zero and try again.");
+                System.exit(0);
             }
 
             // decrypt

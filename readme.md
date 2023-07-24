@@ -12,6 +12,14 @@ Follow the following setup instructions to run the program.
 * To run the program in the terminal you can use 'gradle run' command
 * To run the unit tests, use 'gradle run' command
 
+## Screenshots
+
+### Encrypt
+![screenshot showing the encrypt process](https://raw.githubusercontent.com/pkariithi/Command-Line-Caesar-Cipher/main/src/main/resources/encrypt.png)
+
+### Decrypt
+![screenshot showing the decrypt process](https://raw.githubusercontent.com/pkariithi/Command-Line-Caesar-Cipher/main/src/main/resources/decrypt.png)
+
 ## B.D.D
 
 | BEHAVIOUR               | INPUT                  | OUTPUT                      |
